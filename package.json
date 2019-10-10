@@ -1,5 +1,5 @@
 {
-  "name": "react-styleguidist",
+  "name": "@rollup-umd/react-styleguidist",
   "description": "React components style guide generator",
   "version": "0.0.0-development",
   "homepage": "https://github.com/styleguidist/react-styleguidist",
@@ -82,7 +82,7 @@
     "remark": "^10.0.1",
     "rewrite-imports": "1.2.0",
     "strip-html-comments": "^1.0.0",
-    "terser-webpack-plugin": "^1.2.3",
+    "@rollup-umd/terser-webpack-plugin": "^1.4.1",
     "to-ast": "^1.0.0",
     "type-detect": "^4.0.8",
     "unist-util-visit": "^1.4.0",
@@ -192,6 +192,10 @@
       "enzyme-to-json/serializer",
       "jest-serializer-html"
     ]
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.com"
   },
   "keywords": [
     "react",
