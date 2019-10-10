@@ -21,6 +21,7 @@ By default, Styleguidist will look for `styleguide.config.js` file in your proje
 - [`ignore`](#ignore)
 - [`logger`](#logger)
 - [`moduleAliases`](#modulealiases)
+- [`minimize`](#minimize)
 - [`mountPointId`](#mountpointid)
 - [`pagePerSection`](#pagepersection)
 - [`printBuildInstructions`](#printbuildinstructions)
@@ -295,6 +296,13 @@ import Placeholder from 'rsg-example/components/Placeholder'
 ````
 
 Check out the [webpack resolve.alias documentation](https://webpack.js.org/configuration/resolve/#resolve-alias) for available syntax.
+
+#### `minimize`
+
+Type: `Boolean`, default: `true`
+
+If `false`, the production build will not be minimized.
+
 
 #### `mountPointId`
 
