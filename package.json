@@ -88,7 +88,8 @@
     "type-detect": "^4.0.8",
     "unist-util-visit": "^1.4.0",
     "webpack-dev-server": "^3.2.1",
-    "webpack-merge": "^4.2.1"
+    "webpack-merge": "^4.2.1",
+    "snyk": "^1.316.1"
   },
   "peerDependencies": {
     "react": ">=15",
@@ -167,7 +168,9 @@
     "test:cypress:open": "cypress open",
     "test:cypress:run": "cypress run",
     "test:cypress:startServer": "node test/run.server.js",
-    "test:cypress:startServer:post": "wait-on http://localhost:8082"
+    "test:cypress:startServer:post": "wait-on http://localhost:8082",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "jest": {
     "testURL": "http://localhost/",
@@ -226,5 +229,6 @@
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "snyk": true
 }
