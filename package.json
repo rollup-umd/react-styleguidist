@@ -67,7 +67,7 @@
     "mini-html-webpack-plugin": "^0.2.3",
     "mri": "^1.1.4",
     "ora": "^3.2.0",
-    "prismjs": "^1.16.0",
+    "prismjs": "^1.21.0",
     "prop-types": "^15.7.2",
     "q-i": "^2.0.1",
     "qss": "^2.0.3",
