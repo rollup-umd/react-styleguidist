@@ -20,11 +20,11 @@
     "css-loader": "^0.28.11",
     "dog-names": "^1.0.2",
     "file-loader": "^1.1.11",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.17",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-styleguidist": "^6.5.3",
+    "react-styleguidist": "^10.0.0",
     "style-loader": "^0.20.3",
     "webpack": "^3.8.1"
   },
