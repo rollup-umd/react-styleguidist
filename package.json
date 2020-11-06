@@ -80,7 +80,7 @@
     "react-lifecycles-compat": "^3.0.4",
     "react-simple-code-editor": "^0.9.7",
     "recast": "^0.17.4",
-    "remark": "^10.0.1",
+    "remark": "^13.0.0",
     "rewrite-imports": "1.2.0",
     "strip-html-comments": "^1.0.0",
     "terser-webpack-plugin": "^1.2.3",
