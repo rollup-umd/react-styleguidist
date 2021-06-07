@@ -24,7 +24,7 @@
     "babel-loader": "^8.0.5",
     "babel-plugin-styled-components": "^1.7.1",
     "core-js": "^3.0.1",
-    "polished": "^3.2.0",
+    "polished": "^3.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-styleguidist": "9.0.8",
