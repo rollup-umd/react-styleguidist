@@ -17,16 +17,16 @@
     "node": ">=4"
   },
   "dependencies": {
-    "css-loader": "^0.28.11",
+    "css-loader": "^4.0.0",
     "dog-names": "^1.0.2",
-    "file-loader": "^1.1.11",
+    "file-loader": "^6.0.0",
     "lodash": "^4.17.11",
     "prop-types": "^15.6.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
-    "react-styleguidist": "^6.5.3",
-    "style-loader": "^0.20.3",
-    "webpack": "^3.8.1"
+    "react-styleguidist": "^11.0.9",
+    "style-loader": "^1.1.4",
+    "webpack": "^5.0.0"
   },
   "scripts": {
     "build": "webpack",
