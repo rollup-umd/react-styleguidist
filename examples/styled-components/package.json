@@ -29,7 +29,7 @@
     "react-dom": "^16.8.6",
     "react-styleguidist": "9.0.8",
     "styled-components": "^4.2.0",
-    "styled-system": "^4.1.0"
+    "styled-system": "^5.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.4.3",
